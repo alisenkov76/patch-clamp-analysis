@@ -21,3 +21,4 @@ __pycache__/
 *.cpt
 *.egg-info/
 *.egg-info
+data/
