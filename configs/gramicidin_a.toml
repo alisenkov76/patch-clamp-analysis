@@ -1,0 +1,40 @@
+[experiment]
+name        = "Gramicidin A"
+description = "β-helical peptide ion channel, DOPhC bilayer, 2M KCl + 10mM HEPES"
+pdb_id      = "1MAG"
+
+[files]
+control     = "data/raw/26629000.abf"
+experiments = [
+    "data/raw/26629001.abf",
+    "data/raw/26629002.abf",
+    "data/raw/26629003.abf",
+    "data/raw/26629004.abf",
+]
+
+[recording]
+sample_rate_hz     = 5000
+target_voltages_mV = [-150, -100, -50, 50, 100, 150]
+min_duration_sec   = 30.0
+skip_zero_mV       = true
+
+[preprocessing]
+lowpass_hz      = 400.0
+noise_window_ms = 50.0
+noise_threshold = 4.0
+
+[detection]
+hist_bins       = 400
+peak_min_height = 0.02
+peak_min_dist   = 20
+min_step_pA     = 0.3
+max_channels    = 6
+
+[qc]
+min_total_sec_for_fit = 200.0
+
+[manual_exclude]
+"26629001.abf" = [[0, 99999]]
+"26629002.abf" = [[0, 1660]]
+"26629003.abf" = [[978, 1628], [4556, 4747]]
+"26629004.abf" = [[2343, 2574]]

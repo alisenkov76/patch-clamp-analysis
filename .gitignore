@@ -1,0 +1,23 @@
+# Temporary MD test directory
+data/md_test/
+# Jupyter
+.ipynb_checkpoints/
+
+*.abf
+data/raw/
+*.csv
+# Игнорирование папок __pycache__ и скомпилированных файлов Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# MD files
+*.gro
+*.trr
+*.edr
+*.log
+*.tpr
+*.cpt
+*.egg-info/
+*.egg-info
