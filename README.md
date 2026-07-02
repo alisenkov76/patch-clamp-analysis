@@ -1,5 +1,8 @@
 # patch-clamp-analysis
 
+![tests](https://github.com/alisenkov76/patch-clamp-analysis/actions/workflows/tests.yml/badge.svg)
+
+
 Universal single-channel patch-clamp analysis pipeline.
 
 Designed for gap-free ABF recordings (Axon Instruments / pCLAMP).  
