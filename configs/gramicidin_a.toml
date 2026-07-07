@@ -1,6 +1,6 @@
 [experiment]
 name        = "Gramicidin A"
-description = "β-helical peptide ion channel, DOPhC bilayer, 2M KCl + 10mM HEPES"
+description = "β-helical peptide ion channel, DOPC bilayer, 2M KCl + 10mM HEPES"
 pdb_id      = "1MAG"
 
 [files]

@@ -27,7 +27,7 @@ Config-driven: one `.toml` file per experiment, no code changes needed.
 
 | Channel | Membrane | Solution | G measured | G literature |
 |---|---|---|---|---|
-| Gramicidin A (1MAG) | DOPhC | 2M KCl + 10mM HEPES | **26.1 +/- 2.4 pS** | 20-28 pS |
+| Gramicidin A (1MAG) | DOPC | 2M KCl + 10mM HEPES | **26.1 +/- 2.4 pS** | 20-28 pS |
 
 ---
 
